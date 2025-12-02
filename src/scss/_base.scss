@@ -12,7 +12,9 @@ html {
 .row + .row {
   margin-top: 16px;
 }
-
+strong {
+  font-weight: 800;
+}
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
