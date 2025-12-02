@@ -1,0 +1,19 @@
+.apropos-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 135px;
+}
+
+.apropos-section-button {
+  margin-top: 80px;
+}
+
+.apropos-section-img {
+  max-height: 60vh;
+  position: absolute;
+  bottom: 0;
+  right: 180;
+}
+.apropos-section-position {
+  position: relative;
+}

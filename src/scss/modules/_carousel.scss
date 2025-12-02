@@ -1,0 +1,69 @@
+/* Wrapper du carousel */
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Plus aucune marge verticale */
+  padding-bottom: 50px;
+}
+
+/* Conteneur du slider */
+.carousel {
+  overflow: hidden;
+  width: 80%;
+  border-radius: 20px;
+  height: auto; /* Important */
+}
+
+/* Bande qui coulisse */
+.carousel-track {
+  display: flex;
+  transition: transform 0.6s ease;
+  height: auto; /* Important */
+}
+
+/* Slide */
+.carousel-slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Important */
+}
+
+/* Images */
+.carousel-slide img {
+  width: auto; /* l’image garde sa largeur réelle */
+  height: 100vh; /* la hauteur remplit le slide */
+  object-fit: contain; /* adapte l’image sans la couper */
+  max-width: 100%;
+}
+
+/* Flèches */
+.carousel-nav {
+  background: var(--pink);
+  border: none;
+  border-radius: 40px;
+  width: 50px;
+  height: 70px;
+  font-size: 26px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-nav:hover {
+  background: var(--pink);
+}
+
+.carousel-left {
+  margin-right: 20px;
+}
+
+.carousel-right {
+  margin-left: 20px;
+}

@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 247px;
+}
+
+.title-photo {
+  max-width: 25vw;
+  position: absolute;
+  bottom: 0; /* ou bottom: 10px; selon ce que tu veux */
+  right: 180; /* si tu veux que l'image touche le bord droit */
+}
+.title-section {
+  margin-left: 100px;
+  margin-top: -25px;
+}
+
+.title-main-align {
+  margin-bottom: -45px;
+}
+
+.title-main {
+  padding-top: 0px;
+}
+
+.title-position {
+  position: relative;
+}

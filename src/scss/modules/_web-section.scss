@@ -1,0 +1,16 @@
+.web-section-img {
+  max-height: 25vh;
+}
+.web-section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+  padding-bottom: 100px;
+}
+.web-section-card-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}

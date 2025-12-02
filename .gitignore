@@ -1,0 +1,6 @@
+.DS_Store
+.parcel-cache
+dist
+node_modules
+src/img/video
+src/img/identite-visuelle

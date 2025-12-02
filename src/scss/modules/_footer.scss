@@ -1,0 +1,27 @@
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+  font-size: 24px;
+}
+footer {
+  padding-top: 83px;
+  padding-bottom: 113px;
+}
+.footer-credits {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.footer-position {
+  position: relative;
+}
+.footer-img {
+  position: absolute;
+  bottom: 0;
+  max-height: 35vh;
+  transform: scaleX(-1);
+}

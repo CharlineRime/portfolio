@@ -1,0 +1,19 @@
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 26px;
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.header-link {
+  color: var(--black);
+  text-decoration: none;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: auto;
+  transition: text-decoration-color 0.3s ease;
+}
+
+.header-link:hover {
+  text-decoration: underline wavy;
+}
