@@ -7,6 +7,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 
 .row + .row {
@@ -28,7 +29,6 @@ body {
   font-weight: 400;
   line-height: normal;
   font-size: 24px;
-  cursor: none;
   background-color: var(--pink);
 }
 
@@ -41,7 +41,7 @@ body {
   transform: translate(-50%, -50%);
   transition: background-color 0.2s ease, transform 0.1s ease;
   z-index: 9999;
-  background-color: #ffb7d9; /* couleur initiale sur fond noir */
+  background-color: #ffb7d9;
 }
 
 a {
