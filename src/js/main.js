@@ -59,14 +59,14 @@ document.addEventListener("mousemove", (e) => {
 
   if (!elem) return;
 
-  const section = elem.closest(".background-pink, .background-black");
+  const section = elem.closest(".background-light, .background-black");
 
   if (!section) return;
 
   if (section.classList.contains("background-black")) {
-    cursor.style.backgroundColor = "#ffb7d9";
-  } else if (section.classList.contains("background-pink")) {
-    cursor.style.backgroundColor = "#000000";
+    cursor.style.backgroundColor = "#4abcc9";
+  } else if (section.classList.contains("background-light")) {
+    cursor.style.backgroundColor = "#fe8f2d";
   }
 });
 

@@ -12,9 +12,9 @@
   transition: transform 0.15s ease;
 }
 
-.button-pink {
+.button-dark {
   border-radius: 60px;
-  border: 1.5px solid var(--pink);
+  border: 1.5px solid var(--main-light);
 }
 
 .button-align-main {
@@ -27,14 +27,41 @@
 }
 
 .button-pink:hover {
-  background-color: var(--pink);
+  background-color: var(--main-light);
   color: var(--black);
   transform: scale(1.05);
 }
 
-.button-black:hover {
-  background-color: var(--black);
-  color: var(--pink);
+.button-orange:hover {
+  background-color: var(--orange);
+  color: var(--main-light);
+  border: none;
+  transform: scale(1.05);
+}
+.button-red:hover {
+  background-color: var(--red);
+  color: var(--main-light);
+  border: none;
+  transform: scale(1.05);
+}
+.button-blue:hover {
+  background-color: var(--blue);
+  color: var(--main-light);
+  border: none;
+  transform: scale(1.05);
+}
+
+.button-green:hover {
+  background-color: var(--green);
+  color: var(--main-light);
+  border: none;
+  transform: scale(1.05);
+}
+
+.button-purple:hover {
+  background-color: var(--purple);
+  color: var(--main-light);
+  border: none;
   transform: scale(1.05);
 }
 

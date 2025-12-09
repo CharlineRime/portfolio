@@ -1,6 +1,11 @@
 html {
-  --pink: #ffb7d9;
+  --main-light: #ffffff;
   --black: #000000;
+  --red: #e3485f;
+  --orange: #fe8f2d;
+  --blue: #4abcc9;
+  --green: #bdca43;
+  --purple: #e3a2f2;
 }
 
 * {
@@ -29,7 +34,7 @@ body {
   font-weight: 400;
   line-height: normal;
   font-size: 24px;
-  background-color: var(--pink);
+  background-color: var(--main-light);
 }
 
 .custom-cursor {
@@ -41,7 +46,7 @@ body {
   transform: translate(-50%, -50%);
   transition: background-color 0.2s ease, transform 0.1s ease;
   z-index: 9999;
-  background-color: var(--pink);
+  background-color: var(--main-light);
 }
 
 a {
