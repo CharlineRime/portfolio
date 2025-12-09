@@ -1,47 +1,40 @@
-/* Wrapper du carousel */
 .carousel-wrapper {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0; /* Plus aucune marge verticale */
+  margin: 0;
   padding-bottom: 50px;
 }
 
-/* Conteneur du slider */
 .carousel {
   overflow: hidden;
   width: 80%;
   border-radius: 20px;
-  height: auto; /* Important */
+  height: auto;
 }
 
-/* Bande qui coulisse */
 .carousel-track {
   display: flex;
   transition: transform 0.6s ease;
-  height: auto; /* Important */
+  height: auto;
 }
 
-/* Slide */
 .carousel-slide {
   min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: auto; /* Important */
+  height: auto;
 }
 
-/* Images */
 .carousel-slide img {
-  width: auto; /* l’image garde sa largeur réelle */
-  height: 100vh; /* la hauteur remplit le slide */
-  object-fit: contain; /* adapte l’image sans la couper */
+  width: auto;
+  height: 100vh;
+  object-fit: contain;
   max-width: 100%;
 }
-
-/* Flèches */
 
 .carousel-nav {
   background: var(--black);
