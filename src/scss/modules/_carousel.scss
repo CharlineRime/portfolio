@@ -42,22 +42,31 @@
 }
 
 /* Flèches */
+
 .carousel-nav {
-  background: var(--pink);
-  border: none;
-  border-radius: 40px;
+  background: var(--black);
+  color: var(--pink);
+  border-radius: 60px;
+  border: 1.5px solid var(--pink);
   width: 50px;
   height: 70px;
   font-size: 26px;
   cursor: pointer;
-  transition: 0.2s ease;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
 
 .carousel-nav:hover {
   background: var(--pink);
+  color: var(--black);
+  transform: scale(1.2) rotate(10deg);
+  border-radius: 60px;
+  border: 1.5px solid var(--pink);
+}
+.carousel-left:hover {
+  transform: scale(1.2) rotate(-10deg);
 }
 
 .carousel-left {

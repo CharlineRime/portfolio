@@ -33,7 +33,6 @@ carousels.forEach((wrapper) => {
     updateCarousel();
   });
 
-  // Si tu veux que le carousel s'adapte au resize
   function setSlideWidth() {
     const slideWidth = track.clientWidth;
     slides.forEach((slide) => {
@@ -56,20 +55,18 @@ document.addEventListener("mousemove", (e) => {
   cursor.style.left = e.clientX + "px";
   cursor.style.top = e.clientY + "px";
 
-  // On récupère tous les éléments sous le curseur
   const elem = document.elementFromPoint(e.clientX, e.clientY);
 
   if (!elem) return;
 
-  // On remonte jusqu'à trouver la section avec background-pink ou background-black
   const section = elem.closest(".background-pink, .background-black");
 
   if (!section) return;
 
   if (section.classList.contains("background-black")) {
-    cursor.style.backgroundColor = "#ffb7d9"; // rose sur fond noir
+    cursor.style.backgroundColor = "#ffb7d9";
   } else if (section.classList.contains("background-pink")) {
-    cursor.style.backgroundColor = "#000000"; // noir sur fond rose
+    cursor.style.backgroundColor = "#000000";
   }
 });
 
@@ -82,7 +79,7 @@ document.querySelectorAll(".video-btn").forEach((btn) => {
     e.preventDefault();
     const videoSrc = btn.getAttribute("data-video");
 
-    modalVideo.src = videoSrc; // Met directement le src sur <video>
+    modalVideo.src = videoSrc;
     modalVideo.load();
     modal.classList.add("show");
     modalVideo.play();

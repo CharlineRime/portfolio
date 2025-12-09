@@ -1,3 +1,7 @@
+/* ===========================
+   NAVIGATION D'ORIGINE
+   =========================== */
+
 .header-nav {
   display: flex;
   justify-content: flex-end;
@@ -11,9 +15,46 @@
   text-decoration: none;
   text-decoration-thickness: 2px;
   text-decoration-skip-ink: auto;
+  position: relative;
+  padding-bottom: 4px;
   transition: text-decoration-color 0.3s ease;
 }
 
-.header-link:hover {
-  text-decoration: underline wavy;
+/* ===========================
+   WAVE ANIMÉE
+   =========================== */
+
+.header-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px; /* décalage vers le bas */
+  width: 100%;
+  height: 10px; /* hauteur de l’élément pour le SVG */
+
+  background: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10'>\
+    <path d='M0 5 C 5 2 10 8 15 5 S 25 2 30 5 S 40 8 45 5 S 55 2 60 5 S 70 8 75 5 S 85 2 90 5 S 100 8 105 5 S 115 2 120 5' \
+    fill='none' stroke='black' stroke-width='3' stroke-linecap='round'/>\
+  </svg>")
+    no-repeat;
+
+  background-size: 100% 100%;
+  opacity: 0;
+  transform-origin: left;
+  transition: opacity 0.25s ease;
+}
+
+.header-link:hover::after {
+  animation: drawWave 0.65s ease forwards;
+  opacity: 1;
+}
+
+@keyframes drawWave {
+  from {
+    background-position-x: 120px; /* recule la vague */
+  }
+  to {
+    background-position-x: 0; /* avance la vague → effet de tracé */
+  }
 }
