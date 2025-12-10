@@ -52,13 +52,14 @@
 }
 
 .carousel-nav:hover {
-  background: var(--main-light);
+  background: var(--orange);
   color: var(--black);
   transform: scale(1.2) rotate(10deg);
   border-radius: 60px;
-  border: 1.5px solid var(--main-light);
+  border: none;
 }
 .carousel-left:hover {
+  background: var(--purple);
   transform: scale(1.2) rotate(-10deg);
 }
 
