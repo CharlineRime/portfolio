@@ -42,3 +42,12 @@
 .hover-purple {
   transition: all 0.3s ease;
 }
+
+.hover-img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.hover-img:hover {
+  filter: grayscale(0%);
+}
