@@ -99,3 +99,30 @@ window.onclick = function (e) {
     closeModal();
   }
 };
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-container",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#element-3", {
+    x: -200,
+  })
+  .to(
+    "#element-1",
+    {
+      x: -300,
+    },
+    0
+  )
+  .to(
+    "#element-2",
+    {
+      x: 200,
+    },
+    0
+  );

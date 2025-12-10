@@ -1,0 +1,21 @@
+.identite-visuelle-spacing {
+  display: flex;
+  gap: 30px;
+}
+.identite-visuelle-img {
+  max-height: 30vh;
+  border: 1px solid var(--black);
+}
+
+.identite-visuelle-video {
+  max-height: 30vh;
+}
+.identite-visuelle-borne {
+  max-height: 60vh;
+  margin-bottom: 150px;
+}
+
+.identite-visuelle-title {
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
