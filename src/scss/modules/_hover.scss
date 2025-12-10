@@ -1,0 +1,44 @@
+.hover-red:hover {
+  color: var(--red);
+  transform: scale(1.05);
+}
+
+.hover-red {
+  transition: all 0.3s ease;
+}
+
+.hover-orange:hover {
+  color: var(--orange);
+  transform: scale(1.05);
+}
+
+.hover-orange {
+  transition: all 0.3s ease;
+}
+
+.hover-blue:hover {
+  color: var(--blue);
+  transform: scale(1.05);
+}
+
+.hover-blue {
+  transition: all 0.3s ease;
+}
+
+.hover-green:hover {
+  color: var(--green);
+  transform: scale(1.05);
+}
+
+.hover-green {
+  transition: all 0.3s ease;
+}
+
+.hover-purple:hover {
+  color: var(--purple);
+  transform: scale(1.05);
+}
+
+.hover-purple {
+  transition: all 0.3s ease;
+}
