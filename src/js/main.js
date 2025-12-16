@@ -99,30 +99,32 @@ window.onclick = function (e) {
     closeModal();
   }
 };
+gsap.registerPlugin(ScrollTrigger);
 
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".parallax-container",
-      start: "top top",
-      scrub: 2,
-      pin: true,
+      trigger: ".third-section",
+      start: "top bottom",
+      end: "bottom top",
+      scrub: 1.5,
+      markers: true,
     },
   })
-  .to("#element-3", {
-    x: -200,
+  .to("#element-1", {
+    y: 110,
   })
   .to(
-    "#element-1",
+    "#element-2",
     {
-      x: -300,
+      y: 0,
     },
     0
   )
   .to(
-    "#element-2",
+    "#element-3",
     {
-      x: 200,
+      x: 0,
     },
     0
   );

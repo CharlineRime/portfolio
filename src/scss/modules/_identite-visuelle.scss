@@ -9,13 +9,21 @@
 
 .identite-visuelle-video {
   max-height: 30vh;
+  position: relative;
 }
 .identite-visuelle-borne {
   max-height: 60vh;
   margin-bottom: 150px;
+  position: relative;
 }
 
 .identite-visuelle-title {
   padding-bottom: 20px;
   padding-top: 50px;
+  position: relative;
+}
+
+.third-section {
+  position: relative;
+  min-height: 200vh;
 }
