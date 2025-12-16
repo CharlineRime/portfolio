@@ -1,14 +1,14 @@
 .video-section-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 52px;
   padding-bottom: 100px;
 }
 
 .video-section-card-align {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 50px;
 }
