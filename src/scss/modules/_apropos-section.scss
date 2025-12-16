@@ -17,3 +17,14 @@
 .apropos-section-position {
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .apropos-section p {
+    width: 80vw;
+  }
+
+  .apropos-section-img {
+    width: 50vw;
+    right: 0;
+  }
+}

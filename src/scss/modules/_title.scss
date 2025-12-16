@@ -26,3 +26,19 @@
 .title-position {
   position: relative;
 }
+
+@media (max-width: 768px) {
+  .title-photo {
+    max-width: 60vw;
+    right: 0;
+    bottom: 0;
+  }
+
+  .title p {
+    width: 100vw;
+  }
+
+  .title h2 {
+    width: 100vw;
+  }
+}

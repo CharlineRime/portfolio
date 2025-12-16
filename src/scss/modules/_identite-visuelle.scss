@@ -27,3 +27,13 @@
   position: relative;
   min-height: 200vh;
 }
+
+@media (max-width: 768px) {
+  .title-section {
+    max-width: 100vw;
+  }
+  .identite-visuelle-spacing {
+    flex-direction: column;
+    gap: 0;
+  }
+}
