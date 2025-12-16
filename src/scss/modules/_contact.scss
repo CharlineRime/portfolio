@@ -1,15 +1,16 @@
 .contact-icons {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 45px;
-  padding-bottom: 113px;
+  max-height: 10vh;
 }
 
-.contact-text {
-  display: flex;
+.contact-spacing {
   flex-direction: column;
-  justify-content: space-between;
-  padding-left: 45px;
-  gap: 61px;
+  display: flex;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }

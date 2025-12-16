@@ -1,7 +1,3 @@
-.video-section-img {
-  max-height: 30vh;
-}
-
 .video-section-card {
   display: flex;
   flex-direction: column;
@@ -15,4 +11,7 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+}
+video {
+  max-height: 50vh;
 }
