@@ -9,7 +9,8 @@
   gap: 10px;
   border-radius: 60px;
   border: 1.5px solid var(--black);
-  transition: transform 0.15s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .button-dark {
@@ -19,11 +20,6 @@
 
 .button-align-main {
   margin-top: 129px;
-}
-
-.button-link {
-  transition: all 0.3s ease;
-  text-decoration: none;
 }
 
 .button-pink:hover {
@@ -71,4 +67,16 @@
 
 .button-rotate-left:hover {
   transform: rotate(-10deg);
+}
+
+@media (max-width: 768px) {
+  .button-align-main {
+    margin-left: 30px;
+    width: 45vw;
+  }
+  .button-link {
+    background-color: var(--orange);
+    border: none;
+    font-weight: 300;
+  }
 }

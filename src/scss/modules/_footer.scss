@@ -31,4 +31,10 @@ footer {
     left: 0;
     max-height: 40vh;
   }
+  .footer-credits {
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+  }
 }

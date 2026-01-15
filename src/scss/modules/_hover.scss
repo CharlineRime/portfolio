@@ -46,3 +46,39 @@
 .hover-img:hover {
   filter: grayscale(0%);
 }
+
+.hover-orange path {
+  transition: fill 0.3s ease;
+  fill: var(--black);
+}
+
+.hover-orange:hover path {
+  fill: var(--orange);
+}
+
+.hover-red path {
+  transition: fill 0.3s ease;
+  fill: var(--black);
+}
+
+.hover-red:hover path {
+  fill: var(--red);
+}
+
+.hover-purple path {
+  transition: fill 0.3s ease;
+  fill: var(--black);
+}
+
+.hover-purple:hover path {
+  fill: var(--purple);
+}
+
+.hover-blue path {
+  transition: fill 0.3s ease;
+  fill: var(--black);
+}
+
+.hover-blue:hover path {
+  fill: var(--blue);
+}
