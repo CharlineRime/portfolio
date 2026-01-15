@@ -15,10 +15,3 @@
 video {
   max-height: 50vh;
 }
-
-@media (max-width: 768px) {
-  .video-section-card-align {
-    flex-direction: column;
-    gap: 0;
-  }
-}

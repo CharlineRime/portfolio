@@ -39,7 +39,7 @@
   .identite-visuelle-spacing {
     flex-direction: column;
     margin-bottom: 100px;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .identite-visuelle-borne {
@@ -56,5 +56,10 @@
 
   .identite-visuelle-video {
     max-height: 30vh;
+  }
+
+  .identite-visuelle-title {
+    margin-left: 20px;
+    margin-top: 40px;
   }
 }

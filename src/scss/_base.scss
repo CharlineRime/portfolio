@@ -37,6 +37,13 @@ body {
   background-color: var(--main-light);
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .custom-cursor {
   position: fixed;
   width: 30px;
@@ -72,6 +79,7 @@ h1 {
 h2 {
   font-size: 64px;
   font-weight: 200;
+  margin-left: 20px;
 }
 
 video {
@@ -81,18 +89,72 @@ video {
 @media (max-width: 768px) {
   p {
     font-size: 1.3rem;
+    max-width: 90vw;
+  }
+
+  .intro {
+    margin-left: 30px;
   }
   .footer-credits {
     font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
   }
   a {
     font-size: 1.3rem;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 4.7rem;
+    margin-left: 20px;
   }
   h2 {
     font-size: 2.5rem;
     padding-top: 20px;
+  }
+
+  .title-main {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+  .button-align-main {
+    margin-left: 30px;
+    width: 45vw;
+  }
+  .header-nav {
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header {
+    width: 100vw;
+  }
+  .header-link {
+    font-size: 1rem;
+  }
+
+  img,
+  video {
+    max-width: 85vw;
+    margin: auto;
+  }
+
+  .video-section-card-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+  }
+  .video-section-card {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .video-section-text {
+    margin: auto;
   }
 }
