@@ -29,9 +29,8 @@ strong {
 
 body {
   color: var(--black);
-  font-family: "lato";
-  font-style: normal;
-  font-weight: 400;
+  font-family: "bricolage grotesque";
+  font-weight: 200;
   line-height: normal;
   font-size: 24px;
   background-color: var(--main-light);
@@ -71,15 +70,15 @@ video {
 }
 
 h1 {
-  padding-top: 113px;
+  padding-top: 30px;
   font-size: 96px;
-  font-weight: 900;
+  font-weight: 500;
 }
 
 h2 {
   font-size: 64px;
   font-weight: 200;
-  margin-left: 20px;
+  margin-top: -10px;
 }
 
 video {
@@ -111,11 +110,6 @@ video {
   h2 {
     font-size: 2.5rem;
     padding-top: 20px;
-  }
-
-  .title-main {
-    margin-left: 40px;
-    margin-top: 10px;
   }
 
   .button-align-main {

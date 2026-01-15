@@ -1,6 +1,7 @@
 .title {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding-bottom: 247px;
 }
 
@@ -10,35 +11,28 @@
   bottom: 0;
   right: 180;
 }
-.title-section {
-  margin-left: 100px;
-  margin-top: -25px;
-}
-
-.title-main-align {
-  margin-bottom: -45px;
-}
-
-.title-main {
-  padding-top: 0px;
-}
 
 .title-position {
   position: relative;
+}
+.title-intro {
+  height: 90vh;
+  width: 200vw;
 }
 
 @media (max-width: 768px) {
   .title-photo {
     max-width: 60vw;
-    right: 0;
     bottom: 0;
+    right: 0;
   }
 
-  .title p {
-    width: 100vw;
+  .title-second {
+    margin-left: 20px;
+    margin-top: 10px;
   }
 
-  .title h2 {
-    width: 100vw;
+  .title-main {
+    line-height: 70px;
   }
 }
