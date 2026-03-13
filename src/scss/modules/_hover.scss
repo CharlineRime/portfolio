@@ -1,41 +1,29 @@
-.hover-red:hover {
-  color: var(--red);
+.hover-red,
+.hover-orange,
+.hover-blue,
+.hover-green,
+.hover-purple {
+  transition: all 0.3s ease;
 }
 
-.hover-red {
-  transition: all 0.3s ease;
+.hover-red:hover {
+  color: var(--red);
 }
 
 .hover-orange:hover {
   color: var(--orange);
 }
 
-.hover-orange {
-  transition: all 0.3s ease;
-}
-
 .hover-blue:hover {
   color: var(--blue);
-}
-
-.hover-blue {
-  transition: all 0.3s ease;
 }
 
 .hover-green:hover {
   color: var(--green);
 }
 
-.hover-green {
-  transition: all 0.3s ease;
-}
-
 .hover-purple:hover {
   color: var(--purple);
-}
-
-.hover-purple {
-  transition: all 0.3s ease;
 }
 
 .hover-img {
