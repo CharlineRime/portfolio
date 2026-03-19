@@ -11,6 +11,41 @@
   filter: blur(10px);
 }
 
+.identite-visuelle-borne-first {
+  max-height: 87.5vh;
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.identite-visuelle-borne {
+  max-height: 70vh;
+  margin-bottom: 150px;
+  opacity: 0;
+  filter: blur(10px);
+}
+
+/* Styles pour les wrappers d'overlay dans identité visuelle */
+.image-overlay-wrapper .identite-visuelle-img {
+  max-height: 40vh;
+  width: auto;
+}
+
+.image-overlay-wrapper .identite-visuelle-video {
+  max-height: 40vh;
+  width: 100%;
+}
+
+.image-overlay-wrapper .identite-visuelle-borne-first {
+  max-height: 87.5vh;
+  width: 100%;
+}
+
+.image-overlay-wrapper .identite-visuelle-borne {
+  max-height: 70vh;
+  width: 100%;
+  margin: 0;
+}
+
 .identite-visuelle-title {
   padding-bottom: 10px;
 }
@@ -24,23 +59,11 @@
   display: flex;
   gap: 20px;
 }
+
 .identite-visuelle-horizontal {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.identite-visuelle-borne-first {
-  max-height: 87.5vh;
-  opacity: 0;
-  filter: blur(10px);
-}
-
-.identite-visuelle-borne {
-  max-height: 70vh;
-  margin-bottom: 150px;
-  opacity: 0;
-  filter: blur(10px);
 }
 
 @media (max-width: 768px) {

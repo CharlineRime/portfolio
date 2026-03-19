@@ -1,6 +1,11 @@
 .web-section-img {
   max-height: 40vh;
 }
+
+.web-section-card .image-overlay-wrapper img {
+  max-height: 40vh;
+  width: auto;
+}
 .web-section-card {
   display: flex;
   flex-direction: column;
